@@ -1,16 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Test : MonoBehaviour
 {
-    // Start is called before the first frame update
-    private void Awake()
-    {
-    }
-    
-
-    // Update is called once per frame
     private void Update()
     {
         if (Input.GetKey(KeyCode.LeftArrow))
@@ -36,7 +27,7 @@ public class Test : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Walls")
+        if (collision.gameObject.CompareTag("Walls"))
         {
             if (Input.GetKey(KeyCode.LeftArrow))
             {
@@ -58,10 +49,6 @@ public class Test : MonoBehaviour
                 transform.Translate(0, 5 * Time.deltaTime, 0);
             }
         }
-        //if (collision.gameObject.tag == "Exit")
-        //{
-        //
-        //}
     }
     
 }
