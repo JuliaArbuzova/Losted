@@ -8,7 +8,7 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         _gameField = new GameField();
-        for (int i = 0; i < _gameField.Field.Count; ++i)
+        for (int i = 1; i < _gameField.Field.Count - 1; ++i)
         {
             transform.GetChild(i).GetComponent<CellView>().Init(_gameField.Field[i]);
         }
@@ -20,9 +20,9 @@ public class GameController : MonoBehaviour
         if (_isGameActive && _gameField.IsCorrect())
         {
             _isGameActive = false;
-            foreach (CellView cellView in transform.GetComponentsInChildren<CellView>())
+            for (int i = 1; i < _gameField.Field.Count - 1; ++i)
             {
-                Destroy(cellView);
+                Destroy(transform.GetChild(i).GetComponent<CellView>());
             }
         }
     }
