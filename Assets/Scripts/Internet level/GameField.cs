@@ -22,7 +22,7 @@ namespace Internet_level
 
     public void Shuffle()
     {
-      foreach (Cell cell in Field) cell.Rotate(Random.Range(1, 4));
+      for (int i = 1; i < SIZE - 1; ++i) Field[i].Rotate(Random.Range(1, 4));
     }
   }
 }

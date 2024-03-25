@@ -4,14 +4,14 @@ namespace Internet_level
 {
   public class Cell
   {
-    private readonly int _correctPosition = 0;
+    private const int CORRECT_POSITION = 0;
     private int _position;
 
     public event Action<int> OnRotation;
 
     public bool IsCorrectPosition()
     {
-      return _correctPosition == _position;
+      return CORRECT_POSITION == _position;
     }
 
     public void Rotate(int value)
