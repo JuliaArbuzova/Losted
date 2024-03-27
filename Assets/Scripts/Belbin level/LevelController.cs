@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Belbin_level
 {
@@ -40,7 +41,7 @@ namespace Belbin_level
     {
       if (_game.CheckCommand())
       {
-        Debug.Log("win");
+        SceneManager.LoadScene("Maze level");
       }
       else
       {

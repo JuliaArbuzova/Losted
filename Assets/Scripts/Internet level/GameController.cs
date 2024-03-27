@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Internet_level
 {
@@ -21,6 +22,7 @@ namespace Internet_level
       {
         _isGameActive = false;
         for (int i = 1; i < _gameField.Field.Count - 1; ++i) Destroy(transform.GetChild(i).GetComponent<CellView>());
+        SceneManager.LoadScene("Belbin level");
       }
     }
   }

@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Internet level.unity
     guid: bc50da4ddbd179c4395ac9f352234b95
+  - enabled: 1
+    path: Assets/Scenes/Maze level.unity
+    guid: d6227e336db186e489a48553f90173e5
+  - enabled: 1
+    path: Assets/Scenes/Belbin level.unity
+    guid: 0fb10157bdba5cf4c93c587f25d88eb8
   m_configObjects: {}

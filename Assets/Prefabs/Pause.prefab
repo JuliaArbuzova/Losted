@@ -515,7 +515,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6680152381203882109}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3870753085458032699}
+        m_TargetAssemblyTypeName: Pause.PauseMenu, Assembly-CSharp
+        m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8436385679395319141
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,8 +586,8 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_VertexColorAlwaysGammaSpace: 1
+  m_AdditionalShaderChannelsFlag: 1
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -632,8 +644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7be0d8cd25d40e9419724f1194de53c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PauseGame: 0
-  pauseGameMenu: {fileID: 8840849522753180791}
+  _pauseGameMenu: {fileID: 8840849522753180791}
 --- !u!1 &8840849522753180791
 GameObject:
   m_ObjectHideFlags: 0
