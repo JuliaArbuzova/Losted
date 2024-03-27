@@ -2,7 +2,7 @@ namespace Belbin_level
 {
   public enum Role
   {
-    Motivator,
+    Motivator = 0,
     Analyst,
     Specialist,
     TeamSoul,

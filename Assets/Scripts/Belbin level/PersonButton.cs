@@ -13,8 +13,8 @@ namespace Belbin_level
 
     public void ChoosePerson()
     {
-      OnPressed?.Invoke(_text, _firstRole, _secondRole);
       gameObject.SetActive(false);
+      OnPressed?.Invoke(_text, _firstRole, _secondRole);
     }
   }
 }

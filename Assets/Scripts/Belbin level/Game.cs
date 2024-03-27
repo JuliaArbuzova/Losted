@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Belbin_level
 {
@@ -57,11 +58,7 @@ namespace Belbin_level
         _isRoleInCommandList[(int)user.PassiveRole] = true;
       }
 
-      foreach (bool status in _isRoleInCommandList)
-        if (!status)
-          return false;
-
-      return false;
+      return _isRoleInCommandList.All(status => status);
     }
 
     public void Restart()
