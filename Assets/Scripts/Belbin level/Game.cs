@@ -5,9 +5,9 @@ namespace Belbin_level
   public class Game
   {
     private readonly List<User> _command = new(5);
-    private User _gamer;
 
     private readonly List<bool> _isRoleInCommandList = new(9);
+    private User _gamer;
 
     private List<User> _users = new(13)
     {
