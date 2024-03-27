@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace Belbin_level
@@ -26,6 +27,8 @@ namespace Belbin_level
       new User(Role.Specialist, Role.IdeaGenerator)
     };
 
+    public event Action OnFullList;
+
     public Game()
     {
       for (int i = 0; i < 9; ++i) _isRoleInCommandList.Add(false);
@@ -40,6 +43,10 @@ namespace Belbin_level
     public void AddMember(User user)
     {
       _command.Add(user);
+      if (_command.Count == 5)
+      {
+        OnFullList?.Invoke();
+      }
     }
 
     public bool CheckCommand()
@@ -55,6 +62,16 @@ namespace Belbin_level
           return false;
 
       return false;
+    }
+
+    public void Restart()
+    {
+      for (int i = 0; i < _isRoleInCommandList.Count; i++)
+      {
+        _isRoleInCommandList[i] = false;
+      }
+      _command.Clear();
+      _command.Add(_gamer);
     }
   }
 }
