@@ -7,9 +7,9 @@ namespace Belbin_level
   {
     private Game _game;
     private int _emptyPositionIndex;
-    private List<GameObject> _texts = new(4);
-    [SerializeField] private List<Vector2> _gamerRolesPosition;
-    [SerializeField] private List<Vector2> _positions;
+    private readonly List<GameObject> _texts = new(4);
+    [SerializeField] private List<Vector3> _gamerRolesPosition;
+    [SerializeField] private List<Vector3> _positions;
     [SerializeField] private List<GameObject> _roleNames;
     
     
@@ -40,18 +40,18 @@ namespace Belbin_level
     {
       if (_game.CheckCommand())
       {
-        // next level
+        Debug.Log("win");
       }
       else
       {
         _game.Restart();
         _emptyPositionIndex = 0;
         
-        for (int i = 3; i > 0; i--)
+        for (int i = 3; i >= 0; i--)
         {
           Destroy(_texts[i]);
         }
-        
+        _texts.Clear();
         for (int i = 0; i < transform.childCount; i++)
         {
           transform.GetChild(i).gameObject.SetActive(true);
