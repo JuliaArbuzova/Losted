@@ -29,7 +29,10 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/danii/Desktop/hse/2 grade/курсач/Losted/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danii/Desktop/hse/2 grade/курсач/Losted/Assets/Scenes/Belbin level.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danii/Desktop/hse/2 grade/курсач/Losted/Assets/Scenes/Belbin level.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danii/Desktop/hse/2 grade/курсач/Losted/Assets/Scripts/Belbin level/Game.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danii/Desktop/hse/2 grade/курсач/Losted/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -116,6 +119,7 @@
       <workItem from="1710524936914" duration="2086000" />
       <workItem from="1711360406835" duration="25876000" />
       <workItem from="1711447363045" duration="5417000" />
+      <workItem from="1711539829777" duration="15536000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -245,7 +249,39 @@
       <option name="project" value="LOCAL" />
       <updated>1711454587562</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update main scene">
+      <option name="closed" value="true" />
+      <created>1711543429398</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711543429398</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Created scripts for second part of Belbin level">
+      <option name="closed" value="true" />
+      <created>1711546603356</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711546603356</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Finished Belbin level">
+      <option name="closed" value="true" />
+      <created>1711559084213</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711559084214</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Create connection between scenes">
+      <option name="closed" value="true" />
+      <created>1711564408668</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1711564408669</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +314,10 @@
     <MESSAGE value="Fixed problem with scripts" />
     <MESSAGE value="Update filesystem&#10;Rename files, create clear file hierarchy" />
     <MESSAGE value="Add Readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Readme" />
+    <MESSAGE value="Update main scene" />
+    <MESSAGE value="Created scripts for second part of Belbin level" />
+    <MESSAGE value="Finished Belbin level" />
+    <MESSAGE value="Create connection between scenes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create connection between scenes" />
   </component>
 </project>
