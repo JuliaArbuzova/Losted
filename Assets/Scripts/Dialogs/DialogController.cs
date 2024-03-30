@@ -24,8 +24,7 @@ namespace Dialogs
       _isMale = PlayerPrefs.GetInt("Sex") == 1;
       Instantiate(_isMale ? _male : _female, _studentCoordinates, Quaternion.identity, _canvasTransform).transform
         .SetSiblingIndex(1);
-      _dialogReader = new DialogReader($@"Assets\Texts for dialogs\{_dataFileName}");
-      _dialogReader.Open();
+      _dialogReader = new DialogReader($@"Texts for dialogs\{_dataFileName}");
       NextMessage();
     }
 
@@ -34,14 +33,13 @@ namespace Dialogs
       if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
         if (!NextMessage())
         {
-          _dialogReader.Close();
           SceneManager.LoadScene(_nextScene);
         }
     }
 
     private bool NextMessage()
     {
-      var data = _dialogReader.GetPhrase();
+      (string, string) data = _dialogReader.GetPhrase();
       if (data.Item1 == null) return false;
       _role.text = data.Item1;
       _message.text = data.Item2;
