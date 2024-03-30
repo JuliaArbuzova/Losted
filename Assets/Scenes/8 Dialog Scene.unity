@@ -630,7 +630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6885129360132381889, guid: 80047b4a1e153884584d54b1b6294a44, type: 3}
       propertyPath: _dataFileName
-      value: Dialog for scene 8.txt
+      value: Dialog for scene 8
       objectReference: {fileID: 0}
     - target: {fileID: 6885129360132381889, guid: 80047b4a1e153884584d54b1b6294a44, type: 3}
       propertyPath: _pathToDataFile

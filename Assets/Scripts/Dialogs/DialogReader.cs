@@ -1,34 +1,25 @@
+using System;
+using System.Collections.Generic;
 using System.IO;
+using UnityEngine;
 
 namespace Dialogs
 {
   public class DialogReader
   {
-    private readonly string _pathToFile;
-    private StreamReader _streamReader;
+    private int _ind = 0;
+    private List<string> _data;
 
     public DialogReader(string pathToFile)
     {
-      _pathToFile = pathToFile;
-    }
-
-    public void Open()
-    {
-      _streamReader = new StreamReader(_pathToFile);
-    }
-
-    public void Close()
-    {
-      _streamReader.Close();
+      _data = new List<string>( Resources.Load<TextAsset>(pathToFile).text.Split('\n', StringSplitOptions.RemoveEmptyEntries));
     }
 
     public (string, string) GetPhrase()
     {
-      string role = _streamReader.ReadLine();
-      if (role == null) return (null, null);
-
-      string text = _streamReader.ReadLine();
-      return (role, text);
+      if (_ind >= _data.Count) return (null, null);
+      _ind += 2;
+      return (_data[_ind - 2], _data[_ind - 1]);
     }
   }
 }

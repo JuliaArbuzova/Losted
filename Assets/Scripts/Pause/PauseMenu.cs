@@ -36,7 +36,7 @@ namespace Pause
     public void LoadMenu()
     {
       Time.timeScale = 1f;
-      SceneManager.LoadScene("Main Scene");
+      SceneManager.LoadScene(0);
     }
 
     public void Restart()

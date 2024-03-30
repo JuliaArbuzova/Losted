@@ -47,7 +47,6 @@ namespace User_data_input
     public void ChooseName(string _)
     {
       PlayerPrefs.SetString("Name", _inputField.text);
-      Debug.Log($"name is {_inputField.text}");
     }
   }
 }
