@@ -41,7 +41,7 @@ namespace Belbin_level
     {
       if (_game.CheckCommand())
       {
-        SceneManager.LoadScene("Maze level");
+        SceneManager.LoadScene(5);
       }
       else
       {

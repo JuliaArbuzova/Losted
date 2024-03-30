@@ -9,12 +9,36 @@ EditorBuildSettings:
     path: Assets/Scenes/0 Main Scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/1 Getting name and genre.unity
+    guid: 8ff31354c6ec82c4982c25e2e7bd34e6
+  - enabled: 1
+    path: Assets/Scenes/2 Dialog Scene.unity
+    guid: 6b25048980dc2284aa2c09475a4b6828
+  - enabled: 1
+    path: Assets/Scenes/3 Dialog Scene.unity
+    guid: 6e38fc82d4d7fdb4dafe8a40020acf68
+  - enabled: 1
+    path: Assets/Scenes/4 Belbin level.unity
+    guid: 0fb10157bdba5cf4c93c587f25d88eb8
+  - enabled: 1
+    path: Assets/Scenes/5 Dialog Scene.unity
+    guid: 767bfe9293e05c44abe6979f2a3a7369
+  - enabled: 1
+    path: Assets/Scenes/6 Dialog Scene.unity
+    guid: aed613ae3eab92e4190f609f262e1af2
+  - enabled: 1
     path: Assets/Scenes/7 Internet level.unity
     guid: bc50da4ddbd179c4395ac9f352234b95
+  - enabled: 1
+    path: Assets/Scenes/8 Dialog Scene.unity
+    guid: 659aa774a35e46948a1f88a5c48b9a3d
+  - enabled: 1
+    path: Assets/Scenes/9 Dialog Scene.unity
+    guid: e429dc49e352ac04f86648d8e4e0652b
   - enabled: 1
     path: Assets/Scenes/10 Maze level.unity
     guid: d6227e336db186e489a48553f90173e5
   - enabled: 1
-    path: Assets/Scenes/4 Belbin level.unity
-    guid: 0fb10157bdba5cf4c93c587f25d88eb8
+    path: Assets/Scenes/11 Dialog Scene.unity
+    guid: 2c52cd236c6ee0b40a35e86cdc93185d
   m_configObjects: {}

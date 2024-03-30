@@ -7,7 +7,7 @@ namespace Main_Menu
     {
         public void PlayGame()
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); //тут можно вызвать сцену по названию, наверное так и сделаем
+            SceneManager.LoadScene(1);
         }
 
         public void ExitGame()

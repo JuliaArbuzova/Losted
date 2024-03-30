@@ -7,16 +7,22 @@ namespace Dialogs
   public class DialogController : MonoBehaviour
   {
     [SerializeField] private string _dataFileName;
-    [SerializeField] private int _nextScene; // Scene build index
+    [SerializeField] private int _nextScene;
     [SerializeField] private TextMeshProUGUI _role;
     [SerializeField] private TextMeshProUGUI _message;
+
+    [SerializeField] private GameObject _male;
+    [SerializeField] private GameObject _female;
+    [SerializeField] private Vector3 _studentCoordinates;
+    [SerializeField] private Transform _canvasTransform;
 
     private bool _isMale;
     private DialogReader _dialogReader;
 
     private void Awake()
     {
-      // _isMale = PlayerPrefs.GetInt("Sex") == 1; использовать потом для выбора картинки и мб цвета текста ждя роли
+      _isMale = PlayerPrefs.GetInt("Sex") == 1;
+      Instantiate(_isMale ? _male : _female, _studentCoordinates, Quaternion.identity, _canvasTransform).transform.SetSiblingIndex(1);
       _dialogReader = new DialogReader($@"Assets\Texts for dialogs\{_dataFileName}");
       _dialogReader.Open();
       NextMessage();
@@ -29,8 +35,7 @@ namespace Dialogs
         if (!NextMessage())
         {
           _dialogReader.Close();
-          // SceneManager.LoadScene(_nextScene);
-          Debug.Log("End of Dialog");
+          SceneManager.LoadScene(_nextScene);
         }
       }
     }

@@ -46,9 +46,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _dataFileName: 
-  _nextScene: -1
+  _nextScene: 0
   _role: {fileID: 3987142352866613501}
   _message: {fileID: 1293730852816121054}
+  _male: {fileID: 7509870063228336521, guid: 7547bf7508f90674f9dfad0204990058, type: 3}
+  _female: {fileID: 5030791422530257154, guid: 75e31873a236dd1499fb1abe11201a04, type: 3}
+  _studentCoordinates: {x: 1594, y: 550, z: 0}
+  _canvasTransform: {fileID: 3840612803317081789}
 --- !u!1 &4762147123703666971
 GameObject:
   m_ObjectHideFlags: 0
