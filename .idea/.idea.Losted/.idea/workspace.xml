@@ -29,10 +29,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/danii/Desktop/hse/2 grade/курсач/Losted/Assets/Scenes/Belbin level.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/danii/Desktop/hse/2 grade/курсач/Losted/Assets/Scenes/Belbin level.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/danii/Desktop/hse/2 grade/курсач/Losted/Assets/Scripts/Belbin level/Game.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/danii/Desktop/hse/2 grade/курсач/Losted/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danii/Desktop/hse/2 grade/курсач/Losted/Assets/Scenes/0 Main Scene.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -121,6 +118,7 @@
       <workItem from="1711447363045" duration="5417000" />
       <workItem from="1711539829777" duration="15536000" />
       <workItem from="1711691072671" duration="8435000" />
+      <workItem from="1711794037128" duration="7191000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -290,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711699219689</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Connect all scenes in one line">
+      <option name="closed" value="true" />
+      <created>1711802329018</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1711802329018</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +334,7 @@
     <MESSAGE value="Finished Belbin level" />
     <MESSAGE value="Create connection between scenes" />
     <MESSAGE value="Create a template for dialogs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a template for dialogs" />
+    <MESSAGE value="Connect all scenes in one line" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connect all scenes in one line" />
   </component>
 </project>
