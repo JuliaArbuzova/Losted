@@ -5,20 +5,17 @@ namespace Pause
 {
     public class PauseMenu : MonoBehaviour
     {
-        private bool _pauseGame;
         [SerializeField] private GameObject _pauseGameMenu;
+        private bool _pauseGame;
+
         private void Update()
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {
                 if (_pauseGame)
-                {
                     Resume();
-                }
                 else
-                {
                     Pause();
-                }
             }
         }
 

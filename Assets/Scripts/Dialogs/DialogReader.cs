@@ -1,38 +1,34 @@
 using System.IO;
-using System.Text;
 
 namespace Dialogs
 {
-  public class DialogReader
-  {
-    private string _pathToFile;
-    private StreamReader _streamReader;
-
-    public DialogReader(string pathToFile)
+    public class DialogReader
     {
-      _pathToFile = pathToFile;
-    }
+        private readonly string _pathToFile;
+        private StreamReader _streamReader;
 
-    public void Open()
-    {
-      _streamReader = new StreamReader(_pathToFile);
-    }
+        public DialogReader(string pathToFile)
+        {
+            _pathToFile = pathToFile;
+        }
 
-    public void Close()
-    {
-      _streamReader.Close();
-    }
+        public void Open()
+        {
+            _streamReader = new StreamReader(_pathToFile);
+        }
 
-    public (string, string) GetPhrase()
-    {
-      string role = _streamReader.ReadLine();
-      if (role == null)
-      {
-        return (null, null);
-      }
+        public void Close()
+        {
+            _streamReader.Close();
+        }
 
-      string text = _streamReader.ReadLine();
-      return (role, text);
+        public (string, string) GetPhrase()
+        {
+            var role = _streamReader.ReadLine();
+            if (role == null) return (null, null);
+
+            var text = _streamReader.ReadLine();
+            return (role, text);
+        }
     }
-  }
 }

@@ -2,24 +2,24 @@ using UnityEngine;
 
 namespace Internet_level
 {
-  public class CellView : MonoBehaviour
-  {
-    private Cell _cell;
-
-    public void Init(Cell cell)
+    public class CellView : MonoBehaviour
     {
-      _cell = cell;
-      _cell.OnRotation += Rotate;
-    }
+        private Cell _cell;
 
-    private void Rotate(int position)
-    {
-      transform.eulerAngles = new Vector3(0, 0, -position * 90);
-    }
+        public void Init(Cell cell)
+        {
+            _cell = cell;
+            _cell.OnRotation += Rotate;
+        }
 
-    public void Rotate()
-    {
-      _cell.Rotate(1);
+        private void Rotate(int position)
+        {
+            transform.eulerAngles = new Vector3(0, 0, -position * 90);
+        }
+
+        public void Rotate()
+        {
+            _cell.Rotate(1);
+        }
     }
-  }
 }

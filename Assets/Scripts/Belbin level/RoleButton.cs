@@ -3,15 +3,15 @@ using UnityEngine;
 
 namespace Belbin_level
 {
-  public class RoleButton : MonoBehaviour
-  {
-    [SerializeField] private Role _role;
-    public event Action<Role> OnChosen;
-
-    public void Choose()
+    public class RoleButton : MonoBehaviour
     {
-      OnChosen?.Invoke(_role);
-      gameObject.SetActive(false);
+        [SerializeField] private Role _role;
+        public event Action<Role> OnChosen;
+
+        public void Choose()
+        {
+            OnChosen?.Invoke(_role);
+            gameObject.SetActive(false);
+        }
     }
-  }
 }
