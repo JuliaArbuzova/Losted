@@ -41,7 +41,7 @@ namespace Dialogs
     {
       (string, string) data = _dialogReader.GetPhrase();
       if (data.Item1 == null) return false;
-      _role.text = data.Item1;
+      _role.text = data.Item1.Length <= 3 ? PlayerPrefs.GetString("Name") : data.Item1;
       _message.text = data.Item2;
       return true;
     }

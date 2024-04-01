@@ -537,14 +537,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogController
       objectReference: {fileID: 0}
-    - target: {fileID: 6094256777285338195, guid: 80047b4a1e153884584d54b1b6294a44, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -722
-      objectReference: {fileID: 0}
-    - target: {fileID: 6094256777285338195, guid: 80047b4a1e153884584d54b1b6294a44, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -198
-      objectReference: {fileID: 0}
     - target: {fileID: 6885129360132381889, guid: 80047b4a1e153884584d54b1b6294a44, type: 3}
       propertyPath: _nextScene
       value: 3

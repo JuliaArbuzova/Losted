@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d085fec-5b67-4a5a-b1ed-cbc7ffada476" name="Changes" comment="" />
+    <list default="true" id="8d085fec-5b67-4a5a-b1ed-cbc7ffada476" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Losted/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Losted/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,12 +32,15 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/danii/Desktop/hse/2 grade/курсач/Losted/Assets/Scenes/0 Main Scene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danii/Desktop/hse/2 grade/курсач/Losted/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -65,6 +71,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../game\My project.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\danii\Desktop\hse\2 grade\курсач\game" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;C:\Users\danii\Desktop\hse\2 grade\курсач\Losted&quot; -debugCodeOptimization" />
@@ -119,6 +133,8 @@
       <workItem from="1711539829777" duration="15536000" />
       <workItem from="1711691072671" duration="8435000" />
       <workItem from="1711794037128" duration="7191000" />
+      <workItem from="1711821492250" duration="4277000" />
+      <workItem from="1711919497668" duration="639000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -296,7 +312,31 @@
       <option name="project" value="LOCAL" />
       <updated>1711802329018</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Clean up code style">
+      <option name="closed" value="true" />
+      <created>1711821827570</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1711821827570</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Updated work with .txt files">
+      <option name="closed" value="true" />
+      <created>1711828901388</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1711828901390</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Updated work with .txt files">
+      <option name="closed" value="true" />
+      <created>1711828953487</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1711828953487</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +375,8 @@
     <MESSAGE value="Create connection between scenes" />
     <MESSAGE value="Create a template for dialogs" />
     <MESSAGE value="Connect all scenes in one line" />
-    <option name="LAST_COMMIT_MESSAGE" value="Connect all scenes in one line" />
+    <MESSAGE value="Clean up code style" />
+    <MESSAGE value="Updated work with .txt files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated work with .txt files" />
   </component>
 </project>
