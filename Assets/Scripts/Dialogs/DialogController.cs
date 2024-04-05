@@ -17,12 +17,10 @@ namespace Dialogs
     [SerializeField] private Transform _canvasTransform;
     private DialogReader _dialogReader;
 
-    private bool _isMale;
 
     private void Awake()
     {
-      _isMale = PlayerPrefs.GetInt("Sex") == 1;
-      Instantiate(_isMale ? _male : _female, _studentCoordinates, Quaternion.identity, _canvasTransform).transform
+      Instantiate(PlayerPrefs.GetInt("Sex") == 1 ? _male : _female, _studentCoordinates, Quaternion.identity, _canvasTransform).transform
         .SetSiblingIndex(1);
       _dialogReader = new DialogReader($@"Texts for dialogs\{_dataFileName}");
       NextMessage();

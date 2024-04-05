@@ -1,32 +1,15 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 
 namespace Belbin_level
 {
   public class Game
   {
     private readonly List<User> _command = new(5);
-
     private readonly List<bool> _isRoleInCommandList = new(9);
     private User _gamer;
-
-    private List<User> _users = new(13)
-    {
-      new User(Role.Analyst, Role.IdeaGenerator),
-      new User(Role.TeamSoul, Role.Coordinator),
-      new User(Role.Motivator, Role.Implementer),
-      new User(Role.Investigator, Role.TeamSoul),
-      new User(Role.Motivator, Role.Analyst),
-      new User(Role.Specialist, Role.Analyst),
-      new User(Role.Pedant, Role.Implementer),
-      new User(Role.Pedant, Role.Coordinator),
-      new User(Role.TeamSoul, Role.Implementer),
-      new User(Role.Coordinator, Role.Pedant),
-      new User(Role.IdeaGenerator, Role.Investigator),
-      new User(Role.Implementer, Role.Motivator),
-      new User(Role.Specialist, Role.IdeaGenerator)
-    };
 
     public Game()
     {
@@ -55,7 +38,9 @@ namespace Belbin_level
         _isRoleInCommandList[(int)user.PassiveRole] = true;
       }
 
-      return _isRoleInCommandList.All(status => status);
+      return _isRoleInCommandList.All(status => status)  && 
+             (from user in _command.DistinctBy(user => user.ActiveRole) select user.ActiveRole).Count() == 5 &&
+             (from user in _command.DistinctBy(user => user.PassiveRole) select user.PassiveRole).Count() == 5;
     }
 
     public void Restart()

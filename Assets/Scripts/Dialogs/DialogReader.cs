@@ -1,13 +1,12 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
 using UnityEngine;
 
 namespace Dialogs
 {
   public class DialogReader
   {
-    private int _ind = 0;
+    private int _ind;
     private List<string> _data;
 
     public DialogReader(string pathToFile)

@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8d085fec-5b67-4a5a-b1ed-cbc7ffada476" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Losted/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Losted/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Belbin level/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Belbin level/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogs/DialogController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogs/DialogController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogs/DialogReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogs/DialogReader.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +34,14 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/danii/Desktop/hse/2 grade/курсач/Losted/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danii/Desktop/hse/2 grade/курсач/Losted/Assets/Scenes/2 Dialog Scene.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -59,7 +61,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -135,6 +137,9 @@
       <workItem from="1711794037128" duration="7191000" />
       <workItem from="1711821492250" duration="4277000" />
       <workItem from="1711919497668" duration="639000" />
+      <workItem from="1711990051269" duration="2264000" />
+      <workItem from="1711996097123" duration="4491000" />
+      <workItem from="1712007637058" duration="7252000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -336,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711828953487</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add name in dialogs">
+      <option name="closed" value="true" />
+      <created>1711992759446</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1711992759446</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,6 +390,7 @@
     <MESSAGE value="Connect all scenes in one line" />
     <MESSAGE value="Clean up code style" />
     <MESSAGE value="Updated work with .txt files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated work with .txt files" />
+    <MESSAGE value="Add name in dialogs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add name in dialogs" />
   </component>
 </project>
