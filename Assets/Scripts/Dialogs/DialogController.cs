@@ -20,6 +20,7 @@ namespace Dialogs
 
     private void Awake()
     {
+      PlayerPrefs.SetInt("Scene", _nextScene - 1);
       Instantiate(PlayerPrefs.GetInt("Sex") == 1 ? _male : _female, _studentCoordinates, Quaternion.identity, _canvasTransform).transform
         .SetSiblingIndex(1);
       _dialogReader = new DialogReader($@"Texts for dialogs\{_dataFileName}");

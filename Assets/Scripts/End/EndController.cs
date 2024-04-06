@@ -7,7 +7,8 @@ namespace End
     {
         private void Update()
         {
-            if (Input.GetMouseButtonDown(0)) SceneManager.LoadScene(0);
+            PlayerPrefs.SetInt("Scene", 0);
+            if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space)) SceneManager.LoadScene(0);
         }
     }
 }
