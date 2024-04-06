@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8d085fec-5b67-4a5a-b1ed-cbc7ffada476" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Losted/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Losted/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Belbin level/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Belbin level/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogs/DialogController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogs/DialogController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogs/DialogReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogs/DialogReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +32,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/danii/Desktop/hse/2 grade/курсач/Losted/Assets/Scenes/2 Dialog Scene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danii/Desktop/hse/2 grade/курсач/Losted/Assets/Scripts/Dialogs/DialogController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -74,7 +72,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../game\My project.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../game\LostInPokrovka.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\danii\Desktop\hse\2 grade\курсач\game" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -140,6 +138,8 @@
       <workItem from="1711990051269" duration="2264000" />
       <workItem from="1711996097123" duration="4491000" />
       <workItem from="1712007637058" duration="7252000" />
+      <workItem from="1712323646440" duration="2100000" />
+      <workItem from="1712411302993" duration="1499000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -349,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711992759446</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Updated checking system in Belbin level">
+      <option name="closed" value="true" />
+      <created>1712327042574</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1712327042575</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,6 +399,7 @@
     <MESSAGE value="Clean up code style" />
     <MESSAGE value="Updated work with .txt files" />
     <MESSAGE value="Add name in dialogs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add name in dialogs" />
+    <MESSAGE value="Updated checking system in Belbin level" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated checking system in Belbin level" />
   </component>
 </project>
